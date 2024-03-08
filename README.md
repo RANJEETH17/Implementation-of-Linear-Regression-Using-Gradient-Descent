@@ -18,6 +18,7 @@ Program to implement the linear regression using gradient descent.
 Developed by: Ranjeeth B K
 RegisterNumber:  212222040132
 */
+```
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -72,6 +73,7 @@ prediction = prediction.reshape(-1, 1)
 predicted_value = scaler.inverse_transform(prediction)
 
 print(f"Predicted value: {predicted_value}")
+```
 
 ## Output:
 ![image](https://github.com/RANJEETH17/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/120718823/bab9c368-59e5-4d03-8875-804787e051b4)
